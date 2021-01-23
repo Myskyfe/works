@@ -1,0 +1,146 @@
+@font-face {
+	font-family: 'Myriad Pro Light';
+	src: url('../fonts/MyriadPro-Light.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Myriad Pro Light';
+	overflow-x: hidden;
+}
+
+*{
+	font-family: 'Myriad Pro Light';
+	font-weight: bold;
+	color: black;
+}
+
+#container{
+	padding: 50px 100px 50px 100px;
+	height: 200vh;
+}
+
+ul li {
+    display: inline-block;
+    margin-right: 44px;
+}
+
+.login{
+	padding: 5px 50px 5px 50px;
+	border: 2px solid black;
+	border-radius: 50px;
+}
+
+.center{
+	margin: auto;
+}
+
+body .navbar-light .navbar-nav .nav-link{
+	color: black;
+}
+
+.minimalism::after{
+	content: "";
+	position: absolute;
+	left: 16px;
+	width: 50px;
+	top: 45px;
+	height: 2px;
+	background-color: #000;
+	right: 0;
+	display block;
+}
+
+.title-img{
+	width: 500px;
+	height: 500px;
+	overflow: hidden;
+	border-radius: 100px;
+	box-shadow: 13px 11px 29px -4px rgba(0,0,0,0.87);
+	transition: 1s;
+	z-index: 1;
+}
+
+.title-img img{
+	width: 200%;
+	margin-left: -350px;
+	transition: 1s;
+}
+
+#title{
+	margin-top: 50px;
+}
+
+.title-text-headline h1{
+	font-size: 3.5rem;
+	padding: 0;
+}
+
+.title-text-headline h1::after{
+	content: "";
+	position: absolute;
+	left: 67px;
+	width: 150px;
+	top: 60px;
+	height: 2px;
+	background-color: #000;
+	right: 0;
+	display block;
+}
+
+.title-text{
+	padding: 0 50px 0 50px;
+}
+
+p{
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 26px;
+    font-weight: initial;
+}
+
+.active-img{
+	margin-top: 800px;
+	width: 200%;
+	transition: 1s;
+	height: 700px;
+	margin-left: 0px;
+	border-radius: 50px;
+}
+
+body .img-left{
+	margin-left: -700px;
+	margin-top: -150px;
+	transition: 1s;
+}
+
+#title .headline{
+	position: absolute;
+	opacity: 0;
+	transition: 1s;
+}
+
+#title .headline h3::after{
+	content: "";
+	position: absolute;
+	left: 0px;
+	width: 150px;
+	top: 40px;
+	height: 2px;
+	background-color: #000;
+	right: 0;
+	display block;
+}
+
+#title .headline h3{
+	font-size: 25pt;
+}
+
+body #title .headline-active{
+	opacity: 1;
+	top: 700px;
+	transition: 1s;
+}
